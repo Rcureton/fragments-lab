@@ -1,0 +1,53 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp"
+    android:orientation="vertical"
+    android:layout_centerVertical="true"
+    tools:context="ly.generalassemb.drewmahrt.userinfotabs.ContactFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#008890"
+        android:textStyle="bold"
+        android:layout_marginTop="10dp"
+        android:textSize="20sp"
+        android:text="Cell: 631-830-2195" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#008890"
+        android:layout_marginTop="10dp"
+        android:textStyle="italic"
+        android:textSize="20sp"
+        android:text="Email: Rashad.Cureton@gmail.com" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#008890"
+        android:layout_marginTop="10dp"
+        android:textSize="20sp"
+        android:text="Twitter: @Rashadcureton" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#008890"
+        android:layout_marginTop="10dp"
+        android:textSize="20sp"
+        android:text="Instagram: @Thelastpradag" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#008890"
+        android:layout_marginTop="10dp"
+        android:textSize="20sp"
+        android:text="Website: Linkedin.com/in/rashadcureton" />
+
+
+</LinearLayout>

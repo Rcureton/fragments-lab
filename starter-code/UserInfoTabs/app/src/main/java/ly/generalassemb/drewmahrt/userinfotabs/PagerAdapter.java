@@ -24,9 +24,9 @@ public class PagerAdapter extends FragmentStatePagerAdapter {
                 PictureFragment tab1 = new PictureFragment();
                 return tab1;
             case 1:
-                //TODO: Add your second tab
-            case 2:
-                //TODO: Add your third tab
+                AboutMeFragment tab2= new AboutMeFragment();
+                return tab2;
+            case 2: ContactFragment tab3= new ContactFragment();
                 return tab3;
             default:
                 return null;
